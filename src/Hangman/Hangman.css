@@ -1,0 +1,45 @@
+.container{
+    width:85%;
+    text-align: center;
+}
+  
+.reset, .reset:active, .reset:focus{
+    background-color: rgba(210, 25, 25, 0.847);
+    color: rgba(255, 255, 255, 0.858);
+    margin: 30px 0 20px 0;
+}
+
+.reset:hover{
+    transform: scale(1.02);
+    color: rgba(210, 25, 25, 0.847);
+    background-color: #fbeaebf1;
+}
+
+.keypad{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width:992px) {
+    .keypad{
+        margin-top: .5em;
+    }
+    #movesRem{
+        text-align: center;
+        margin-top: 1.5em;
+    }
+    h1{
+        margin-top: 3em !important;
+    }
+}
+
+h1{
+    font-size: 2.2em;
+    font-weight:600;
+}
+
+#movesRem{
+    font-weight:500;
+}
